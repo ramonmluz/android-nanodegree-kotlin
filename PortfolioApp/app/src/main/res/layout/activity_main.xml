@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_activity_nav">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_title"
+        android:textColor="@color/blackColor"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:textAlignment="center"/>
+
+
+    <Button style="@style/BtsHomeScreenTheme"
+        android:text="@string/popular_movies"
+        android:id="@+id/bt_popular_movies"
+        android:onClick="launchPopularMoviesApp"
+        />
+
+    <Button  style="@style/BtsHomeScreenTheme"
+        android:text="@string/stock_hawk"
+        android:id="@+id/bt_stock_hawk"
+        android:onClick="launchStockHawkApp"/>
+
+    <Button style="@style/BtsHomeScreenTheme"
+        android:text="@string/build_it_bigger"
+        android:id="@+id/bt_build"
+        android:onClick="launchBuildItBiggerApp"/>
+
+    <Button style="@style/BtsHomeScreenTheme"
+        android:text="@string/make_your_app"
+        android:id="@+id/bt_make_app"
+        android:onClick="launchMakeYourApp"/>
+
+    <Button style="@style/BtsHomeScreenTheme"
+        android:text="@string/go_ubiquitous"
+        android:id="@+id/bt_go_ubiquitous"
+        android:onClick="launchGoUbiquitousApp"/>
+
+    <Button style="@style/BtsHomeScreenTheme.Blue"
+        android:text="@string/capstone"
+        android:id="@+id/bt_capstone"
+        android:onClick="launchCapstoneApp"/>
+
+</LinearLayout>
